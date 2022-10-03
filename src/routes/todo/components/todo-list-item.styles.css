@@ -1,0 +1,30 @@
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 1px lightgray;
+}
+
+.todo-item.completed {
+  text-decoration: line-through;
+}
+
+.todo-item button {
+  background-color: darkred;
+  inset: none;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.todo-data {
+  width: 100%;
+}
+
+.todo-data label {
+  width: 100%;
+  display: block;
+  height: 100%;
+  cursor: pointer;
+}
