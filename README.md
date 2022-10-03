@@ -45,6 +45,8 @@ Development mode uses [Vite's development server](https://vitejs.dev/). For Qwik
 
 ```
 npm run dev
++
+npm run db-server
 ```
 
 > Note: during dev mode, Vite will request many JS files, which does not represent a Qwik production build.
@@ -63,4 +65,18 @@ The production build should generate the client and server modules by running bo
 
 ```
 npm run build
+```
+
+You need to add `db.json` to core with next Structure
+```
+{
+  "todos": [
+    {
+      "id": "7edf9c7e6142d",
+      "text": "Im a todo",
+      "checked": false,
+      "completed": false
+    },
+  ]
+}
 ```
