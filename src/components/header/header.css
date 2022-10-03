@@ -12,7 +12,7 @@ header .logo a {
   padding: 10px 10px 7px 20px;
 }
 
-header ul {
+header .app-title-block {
   margin: 0;
   padding: 3px 10px 0 0;
   list-style: none;
@@ -20,18 +20,9 @@ header ul {
   text-align: right;
 }
 
-header li {
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-}
-
-header li a {
+.app-title-block .link {
   display: inline-block;
   padding: 15px 10px;
   text-decoration: none;
-}
-
-header li a:hover {
-  text-decoration: underline;
+  color: var(--qwik-dark-blue);
 }
